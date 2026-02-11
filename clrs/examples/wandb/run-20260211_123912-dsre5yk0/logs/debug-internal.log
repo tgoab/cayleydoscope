@@ -1,0 +1,8 @@
+{"time":"2026-02-11T12:39:14.061228-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-11T12:39:14.447331-05:00","level":"INFO","msg":"stream: created new stream","id":"dsre5yk0"}
+{"time":"2026-02-11T12:39:14.447391-05:00","level":"INFO","msg":"handler: started","stream_id":"dsre5yk0"}
+{"time":"2026-02-11T12:39:14.450699-05:00","level":"INFO","msg":"stream: started","id":"dsre5yk0"}
+{"time":"2026-02-11T12:39:14.450717-05:00","level":"INFO","msg":"writer: started","stream_id":"dsre5yk0"}
+{"time":"2026-02-11T12:39:14.450734-05:00","level":"INFO","msg":"sender: started","stream_id":"dsre5yk0"}
+{"time":"2026-02-11T12:41:20.61912-05:00","level":"ERROR","msg":"api: HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/tgoabike/clrs-project/dsre5yk0/file_stream"}
+{"time":"2026-02-11T12:41:20.619608-05:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found url=https://api.wandb.ai/files/tgoabike/clrs-project/dsre5yk0/file_stream: {\"error\":\"run clrs-project/dsre5yk0 not found while streaming file\"}"}

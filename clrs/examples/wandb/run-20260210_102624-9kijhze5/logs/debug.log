@@ -1,0 +1,62 @@
+2026-02-10 10:26:24,282 INFO    MainThread:28937 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/clrs/examples/wandb/run-20260210_102624-9kijhze5/logs/debug.log
+2026-02-10 10:26:24,283 INFO    MainThread:28937 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/clrs/examples/wandb/run-20260210_102624-9kijhze5/logs/debug-internal.log
+2026-02-10 10:26:24,283 INFO    MainThread:28937 [wandb_init.py:init():844] calling init triggers
+2026-02-10 10:26:24,283 INFO    MainThread:28937 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2026-02-10 10:26:25,616 INFO    MainThread:28937 [wandb_init.py:init():892] starting backend
+2026-02-10 10:26:25,616 INFO    MainThread:28937 [wandb_init.py:init():895] sending inform_init request
+2026-02-10 10:26:25,619 INFO    MainThread:28937 [wandb_init.py:init():903] backend started and connected
+2026-02-10 10:26:25,631 INFO    MainThread:28937 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2026-02-10 10:26:25,632 INFO    MainThread:28937 [wandb_init.py:init():973] updated telemetry
+2026-02-10 10:26:25,678 INFO    MainThread:28937 [wandb_init.py:init():997] communicating run to backend with 90.0 second timeout
+2026-02-10 10:26:26,222 INFO    MainThread:28937 [wandb_init.py:init():1042] starting run threads in backend
+2026-02-10 10:26:26,306 INFO    MainThread:28937 [wandb_run.py:_console_start():2529] atexit reg
+2026-02-10 10:26:26,307 INFO    MainThread:28937 [wandb_run.py:_redirect():2377] redirect: wrap_raw
+2026-02-10 10:26:26,307 INFO    MainThread:28937 [wandb_run.py:_redirect():2446] Wrapping output streams.
+2026-02-10 10:26:26,307 INFO    MainThread:28937 [wandb_run.py:_redirect():2469] Redirects installed.
+2026-02-10 10:26:26,308 INFO    MainThread:28937 [wandb_init.py:init():1082] run started, returning control to user process
+2026-02-10 11:04:03,504 INFO    MainThread:28937 [wandb_run.py:_finish():2295] finishing run tgoabike/clrs-project/9kijhze5
+2026-02-10 11:04:03,511 INFO    MainThread:28937 [wandb_run.py:_atexit_cleanup():2494] got exitcode: 0
+2026-02-10 11:04:03,514 INFO    MainThread:28937 [wandb_run.py:_restore():2476] restore
+2026-02-10 11:04:03,515 INFO    MainThread:28937 [wandb_run.py:_restore():2482] restore done
+2026-02-10 11:04:09,108 WARNING MainThread:28937 [wandb_init.py:init():1587] [no run ID] interrupted
+Traceback (most recent call last):
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 1578, in init
+    run = wi.init(run_settings, run_config, run_printer)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_init.py", line 865, in init
+    self._wl.finish_all_active_runs()
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_setup.py", line 166, in finish_all_active_runs
+    run.finish()
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 445, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2283, in finish
+    return self._finish(exit_code)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2311, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2506, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/wandb_run.py", line 2728, in _on_finish
+    wait_with_progress(
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 23, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/mailbox/wait_with_progress.py", line 77, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/lib/python3.12/site-packages/wandb/sdk/lib/asyncio_manager.py", line 136, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/Users/juli/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/Users/juli/.local/share/uv/python/cpython-3.12.11-macos-aarch64-none/lib/python3.12/threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt

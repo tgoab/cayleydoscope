@@ -1,0 +1,12 @@
+{"time":"2026-02-09T21:35:40.280022-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-09T21:35:40.705472-05:00","level":"INFO","msg":"stream: created new stream","id":"jg5tiffm"}
+{"time":"2026-02-09T21:35:40.706158-05:00","level":"INFO","msg":"handler: started","stream_id":"jg5tiffm"}
+{"time":"2026-02-09T21:35:40.707923-05:00","level":"INFO","msg":"stream: started","id":"jg5tiffm"}
+{"time":"2026-02-09T21:35:40.709378-05:00","level":"INFO","msg":"writer: started","stream_id":"jg5tiffm"}
+{"time":"2026-02-09T21:35:40.709415-05:00","level":"INFO","msg":"sender: started","stream_id":"jg5tiffm"}
+{"time":"2026-02-09T21:41:12.931907-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-09T21:41:13.109376-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-09T21:41:13.118026-05:00","level":"INFO","msg":"stream: closing","id":"jg5tiffm"}
+{"time":"2026-02-09T21:41:13.11806-05:00","level":"INFO","msg":"handler: closed","stream_id":"jg5tiffm"}
+{"time":"2026-02-09T21:41:13.118367-05:00","level":"INFO","msg":"sender: closed","stream_id":"jg5tiffm"}
+{"time":"2026-02-09T21:41:13.118386-05:00","level":"INFO","msg":"stream: closed","id":"jg5tiffm"}

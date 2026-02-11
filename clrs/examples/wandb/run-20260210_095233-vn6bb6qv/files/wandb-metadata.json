@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-26.0.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.11",
+  "startedAt":  "2026-02-10T14:52:33.519599Z",
+  "program":  "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/clrs/examples/experiments.ipynb",
+  "codePath":  "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/clrs/examples/experiments.ipynb",
+  "codePathLocal":  "experiments.ipynb",
+  "git":  {
+    "remote":  "git@github.com:tgoab/cayleydoscope.git",
+    "commit":  "f13a1b0a48347c144d3984dfdd007fc5dc55607a"
+  },
+  "email":  "crayolaskiesforathousandmiles@gmail.com",
+  "root":  "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/clrs/examples",
+  "host":  "Julis-MacBook-Pro.local",
+  "executable":  "/Users/juli/Documents/cs/machine learning/GNNs/cayleydoscope/cayleydoscope/cayleydoscope/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "371881857024"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  6,
+    "gpuCores":  14,
+    "memoryGb":  16,
+    "swapTotalBytes":  "23622320128",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "tz3rin4kgjlqmcpcy0zc5keewf95mker"
+}

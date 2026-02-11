@@ -1,0 +1,12 @@
+{"time":"2026-02-10T09:51:50.28679-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-10T09:51:50.576114-05:00","level":"INFO","msg":"stream: created new stream","id":"ylo726cs"}
+{"time":"2026-02-10T09:51:50.576176-05:00","level":"INFO","msg":"handler: started","stream_id":"ylo726cs"}
+{"time":"2026-02-10T09:51:50.57641-05:00","level":"INFO","msg":"stream: started","id":"ylo726cs"}
+{"time":"2026-02-10T09:51:50.576418-05:00","level":"INFO","msg":"sender: started","stream_id":"ylo726cs"}
+{"time":"2026-02-10T09:51:50.576408-05:00","level":"INFO","msg":"writer: started","stream_id":"ylo726cs"}
+{"time":"2026-02-10T09:52:34.499231-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-10T09:52:34.730601-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-10T09:52:34.73625-05:00","level":"INFO","msg":"stream: closing","id":"ylo726cs"}
+{"time":"2026-02-10T09:52:34.736269-05:00","level":"INFO","msg":"handler: closed","stream_id":"ylo726cs"}
+{"time":"2026-02-10T09:52:34.736524-05:00","level":"INFO","msg":"sender: closed","stream_id":"ylo726cs"}
+{"time":"2026-02-10T09:52:34.736536-05:00","level":"INFO","msg":"stream: closed","id":"ylo726cs"}
