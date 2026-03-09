@@ -1,0 +1,12 @@
+{"time":"2026-02-17T00:53:44.181448-05:00","level":"INFO","msg":"stream: starting","core version":"0.24.2"}
+{"time":"2026-02-17T00:53:44.424233-05:00","level":"INFO","msg":"stream: created new stream","id":"m3qlylip"}
+{"time":"2026-02-17T00:53:44.424295-05:00","level":"INFO","msg":"handler: started","stream_id":"m3qlylip"}
+{"time":"2026-02-17T00:53:44.424524-05:00","level":"INFO","msg":"writer: started","stream_id":"m3qlylip"}
+{"time":"2026-02-17T00:53:44.424529-05:00","level":"INFO","msg":"stream: started","id":"m3qlylip"}
+{"time":"2026-02-17T00:53:44.424543-05:00","level":"INFO","msg":"sender: started","stream_id":"m3qlylip"}
+{"time":"2026-02-17T00:55:31.280923-05:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-02-17T00:55:31.467468-05:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-02-17T00:55:31.470975-05:00","level":"INFO","msg":"stream: closing","id":"m3qlylip"}
+{"time":"2026-02-17T00:55:31.470987-05:00","level":"INFO","msg":"handler: closed","stream_id":"m3qlylip"}
+{"time":"2026-02-17T00:55:31.471656-05:00","level":"INFO","msg":"sender: closed","stream_id":"m3qlylip"}
+{"time":"2026-02-17T00:55:31.471676-05:00","level":"INFO","msg":"stream: closed","id":"m3qlylip"}
